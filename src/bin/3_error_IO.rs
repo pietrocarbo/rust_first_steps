@@ -39,6 +39,6 @@ impl From<num::ParseIntError> for CustomError {
 }
 
 fn main() {
-    let n: i32 = file_parse("../resources/3_number.txt").unwrap_or(0);
+    let n: i32 = file_parse("/home/pietro/Desktop/Emerging Programming Paradigms/rust_projects/presentation/resources/3_number.txt").unwrap_or(0);
     println!("parsed number is {}", n)
 }
