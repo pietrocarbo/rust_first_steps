@@ -50,7 +50,6 @@ fn main() {
     if secret_number % 2 == 0 {
         println!("Even branch");
         cacher.value(secret_number);
-        cacher.value(secret_number);
     }
      
 }
